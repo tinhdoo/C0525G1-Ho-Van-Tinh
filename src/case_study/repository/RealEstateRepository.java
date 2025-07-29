@@ -8,7 +8,7 @@ import java.util.List;
 
 public class RealEstateRepository {
     public List<RealEstate> listRealEstates = new ArrayList<>();
-    static String Url = "case_study/data/RealEstateData.csv";
+    static String Url = "src/case_study/data/RealEstateData.csv";
 
     public void add(RealEstate realEstate) {
         listRealEstates.add(realEstate);
@@ -20,8 +20,9 @@ public class RealEstateRepository {
                     realEstate.getPrice() + "," + realEstate.isSold();
             bufferedWriter.write(line);
             bufferedWriter.newLine();
+            System.out.println("Thêm mới thành công!");
         } catch (IOException e) {
-            System.out.println("Lỗi ghi file!");
+            System.out.println("Lỗi ghi file!" + e.getMessage());
         }
     }
     public void findAll() {

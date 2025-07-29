@@ -67,7 +67,6 @@ public class SpendView {
     private void searchByName() {
         System.out.println("====TÌM CHI TIÊU THEO TÊN====");
         System.out.print("Nhập tên cần tìm: ");
-        scanner.nextLine();
         String name = scanner.nextLine();
 
         Map<Integer, Spend> result = controller.searchByName(name);

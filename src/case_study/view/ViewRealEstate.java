@@ -50,7 +50,6 @@ public class ViewRealEstate {
                 case 6 -> searchByName();
                 case 0 -> {
                     mainMenu();
-                    break;
                 }
                 default -> System.out.println("Vui lòng nhập lại!");
             }
@@ -119,7 +118,6 @@ public class ViewRealEstate {
     public void add() {
         RealEstate realEstate = input();
         controller.add(realEstate);
-        System.out.println("Thêm mới thành công!");
     }
 
     public void delete() {
@@ -161,5 +159,6 @@ public class ViewRealEstate {
         System.out.println("Tình trạng: ");
         boolean isSold = scanner.hasNext();
         return new RealEstate(code, name, type, location, area, price, isSold);
+
     }
 }

@@ -1,20 +1,23 @@
 package ss16.repository;
 
 import ss16.entity.Spend;
-
 import java.io.*;
+import java.time.LocalDate;
 import java.util.*;
 
 public class SpendRepo {
     public Map<Integer, Spend> listSpend = new HashMap<>();
-    static String UrlSpend = "src/ss16/data/writerll.csv";  // Đường dẫn đúng cho IDE
 
+    private static final String FILE_PATH = "src/ss16/data/writerll.csv";
+    public SpendRepo() {
+        loadFromFile();
+    }
     public void add(Spend spend) {
         listSpend.put(spend.getCode(), spend);
-        File file = new File(UrlSpend);
+        File file = new File(FILE_PATH);
         try (FileWriter fileWriter = new FileWriter(file, true);
              BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
-            String line = spend.getCode() + "," + spend.getName() + "," + spend.getDate() + "," + spend.getAmount() + "," + spend.getDescribe();
+            String line = String.join(",", spend.getCode() + "", spend.getName(), spend.getDate().toString(), spend.getAmount() + "", spend.getDescribe());
             bufferedWriter.write(line);
             bufferedWriter.newLine();
         } catch (IOException e) {
@@ -23,7 +26,7 @@ public class SpendRepo {
     }
 
     public void findAll() {
-        try (FileReader fileReader = new FileReader(UrlSpend);
+        try (FileReader fileReader = new FileReader(FILE_PATH);
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
@@ -33,6 +36,28 @@ public class SpendRepo {
             System.out.println("Lỗi đọc file!");
         }
     }
+    public void loadFromFile() {
+        File file = new File(FILE_PATH);
+        if (!file.exists()) return;
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(",");
+                if (parts.length == 5) {
+                    int code = Integer.parseInt(parts[0]);
+                    String name = parts[1];
+                    LocalDate date = LocalDate.parse(parts[2]);
+                    int amount = Integer.parseInt(parts[3]);
+                    String description = parts[4];
+                    listSpend.put(code, new Spend(code, name, date, amount, description));
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("Lỗi khi đọc file: " + e.getMessage());
+        }
+    }
+
 
     public Collection<Spend> getAll() {
         return listSpend.values();
