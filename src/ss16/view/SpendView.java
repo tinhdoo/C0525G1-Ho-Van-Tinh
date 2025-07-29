@@ -31,11 +31,7 @@ public class SpendView {
             System.out.print("Chọn chức năng: ");
             int choose = InputExceptions.inputInterger();
             switch (choose) {
-<<<<<<< HEAD
                 case 1 -> getAll();
-=======
-                case 1 -> findAll();
->>>>>>> save-detached-work
                 case 2 -> add();
                 case 3 -> delete();
                 case 4 -> update();
@@ -99,12 +95,10 @@ public class SpendView {
             display(spend);
         }
     }
-<<<<<<< HEAD
-=======
+
     private void findAll(){
         controller.findAll();
     }
->>>>>>> save-detached-work
 
     private void getAll() {
         Collection<Spend> spends = controller.getAll();

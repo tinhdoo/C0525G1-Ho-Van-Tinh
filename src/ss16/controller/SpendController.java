@@ -1,6 +1,5 @@
 package ss16.controller;
 
-
 import ss16.entity.Spend;
 import ss16.service.SpendService;
 
@@ -14,6 +13,7 @@ public class SpendController {
     public void delete(int code) {
         service.delete(code);
     }
+
     public void update(int code, Spend spend) {
         service.update(code, spend);
     }
@@ -23,11 +23,11 @@ public class SpendController {
     }
 
     public Spend searchByCode(int code) {
-       return service.searchByCode(code);
+        return service.searchByCode(code);
     }
 
     public Map<Integer, Spend> searchByName(String name) {
-       return service.searchByName(name);
+        return service.searchByName(name);
     }
 
     public Boolean isCodeExist(int code) {
@@ -35,19 +35,18 @@ public class SpendController {
     }
 
     public Spend add(Spend spend) {
-       return service.addSpend(spend);
+        return service.addSpend(spend);
     }
 
     public List<Spend> sortByNameAsc() {
         return service.sortByNameAsc();
     }
+
     public List<Spend> sortByAmountDescThenNameAsc() {
         return service.sortByAmountDescThenNameAsc();
     }
-<<<<<<< HEAD
-=======
-    public void findAll(){
+
+    public void findAll() {
         service.findAll();
     }
->>>>>>> save-detached-work
 }

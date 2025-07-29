@@ -13,8 +13,5 @@ public interface ISpend {
     Spend searchByCode(int code);
     Map<Integer, Spend> searchByName(String name);
     Boolean isCodeExist(int code);
-<<<<<<< HEAD
-=======
     void findAll();
->>>>>>> save-detached-work
 }

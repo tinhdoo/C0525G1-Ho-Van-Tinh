@@ -3,7 +3,6 @@ package ss17.controller;
 
 import ss17.entity.Spend;
 import ss17.service.SpendService;
-
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;

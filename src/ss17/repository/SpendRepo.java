@@ -6,8 +6,8 @@ import java.io.*;
 import java.util.*;
 
 public class SpendRepo {
-    public List<Spend> listSpend = new ArrayList<>();
-    static String Url = "ss17/data/data.csv";
+    public List<Spend> listSpend;
+    static String Url = "src/ss17/data/data.txt";
 
     public SpendRepo() {
         listSpend = readFromFile();
@@ -15,28 +15,21 @@ public class SpendRepo {
 
     public void add(Spend spend) {
         listSpend.add(spend);
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(Url))) {
-            oos.writeObject(listSpend);
-        } catch (IOException e) {
-            System.out.println("Lỗi ghi file!");
-        }
+        writeToFile();
     }
-
+    @SuppressWarnings("unchecked")
     public List<Spend> readFromFile() {
         List<Spend> list = new ArrayList<>();
         File file = new File(Url);
-        if (!file.exists()) return list;
+        if (!file.exists() || file.length() == 0) return list;
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file))) {
             list = (List<Spend>) ois.readObject();
-        } catch (IOException e) {
-            System.out.println("Lỗi khi đọc file: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-            System.out.println("Không tìm thấy lớp khi đọc dữ liệu từ file !");
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("Lỗi đọc file: " + e.getMessage());
         }
         return list;
     }
-
 
     public Collection<Spend> getAll() {
         return listSpend;
@@ -62,13 +55,19 @@ public class SpendRepo {
             oos.writeObject(listSpend);
         } catch (IOException e) {
             System.out.println("Lỗi ghi file!");
+
         }
     }
 
     public Spend searchByCode(int code) {
-        Spend spend = listSpend.get(code);
-        return spend;
+        for (Spend spend : listSpend) {
+            if (spend.getCode() == code) {
+                return spend;
+            }
+        }
+        return null;
     }
+
 
     public Map<Integer, Spend> searchByName(String name) {
         Map<Integer, Spend> result = new HashMap<>();
