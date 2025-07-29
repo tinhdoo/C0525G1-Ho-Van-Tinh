@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="add45959-8d4a-4ec8-be87-2bfce4dc2f36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2_retake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/common/IdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/common/InputArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/common/InputExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/common/UniqueIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss1/Caculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/controller/FruitsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/model/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/repository/FruitRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/service/FruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/service/IFruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/view/FruitsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss10/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss11/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/controller/FruitsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/entity/Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/repository/FruitsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/service/FruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/service/IFruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/view/FruitsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss12/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/controller/SpendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/entity/Spend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/repository/SpendRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/service/ISpend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/service/SpendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss13/view/SpendView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/controller/SpendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/entity/Spend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/repository/SpendRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/service/ISpend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/service/SpendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss14/view/SpendView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/controller/SpendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/entity/Spend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/repository/SpendRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/service/ISpend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/service/SpendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss15/view/SpendView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/controller/SpendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/data/writerll.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/entity/Spend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/repository/SpendRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/service/ISpend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/service/SpendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss16/view/SpendView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss2/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss2/SumOfDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss3/AverageII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss3/FindExistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss3/TwoDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss4/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss5/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7/IBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7/NaturalBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7/SocialBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss8/Refactoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/module1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/CaseStudy/CaseStudy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thi/Câu 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thi/Câu 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thi/Câu 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thuật toán/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thuật toán/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thuật toán/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thuật toán/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Thuật toán/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Ham_kiem_tra_so_nt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 1/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 1/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 1/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 1/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 1/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Bài 9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Luyện tập hàm 2/Kiểm tra từ đối xứng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss10_Hàm/Bài tập/Quản lý sản phẩm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Adam &amp; Eva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/CongTac_bongDen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Dien_thoai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Game basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Game_basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Hình chữ nhật.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Meo_chuot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Remote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/Temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Bài tập/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Thực hành/Abc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Thực hành/Class &amp; Object.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Thực hành/Xây dựng lớp date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss11_OOP/Thực hành/Đèn pin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/55516-8934588012112.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/8934588192227.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/CaseStudy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/CaseStudy_M.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/NUOC NGOT CHANH TUOI ON LEMON LON 330ML.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/circle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/giai thừa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/lon_alkaline_e02fa9cead1342f8bcb51f2c471d48d2_master.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/nuoc-ngot-coca-cola-zero-320ml_afe6eb3890524920a7acb025c4d95559_grande.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss12_luyenTap/—Pngtree—check mark icon design template_4085369.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/Cấu trúc có điều kiện.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/Mô tả thuật toán chuyển đổi tiền tệ.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/Thuật toán game đoán số (1).drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/Tính điểm trung bình.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/tìm giá trị lớn nhất trong 3 số.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss3_ma_gia_luu_do/Bai Tap/tìm giá trị lớn nhất trong một dãy số.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Baitap_tao_danh_sach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Ban_co.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Bancotest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Form đăng ký người dùng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Lấy survey khách hàng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Lịch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Tao_trang_CV_ca_nhan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Tạo bảng nâng cao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Tạo form đơn giản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Bai tap/Đăng ký hoc vien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Thuc hanh/Tao_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/Thuc hanh/thuchanh_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss4_git_html/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Chuyen_doi_nhiet_do.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Chuyển đổi tiền tệ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Diện tích hình tròn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/May_tinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Tinh_diem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Điểm trung bình.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Bai_tap/Ứng dụng máy tính.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Thuc_hanh/Khai báo và sử dụng biến.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Thuc_hanh/Quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Thuc_hanh/Sử dụng toán tử.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Thuc_hanh/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss5_Javascript/Thuc_hanh/pppp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Bai_tap/BMI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Bai_tap/Swc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Bai_tap/Switch_case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/Kiem_tra_nam_nhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/Lt_cautruc_ifelse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/Su_kien_chuot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/Swichcase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/ba_ngoi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss6/Thuc_hanh/if_else_if.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 1/Bài 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/Cấu trúc điều kiện 2/Bài 9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss7_if_else/Bai_tap/May_tinh_don_gian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 1/Bài 8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Slide 08 - Arrays.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Luyện vòng lặp 2/Slide 10 - Introduction to OOP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/Sinh_bang_cuu_chuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Bai_tap/So_nguyen_to_dau_tien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Thuc_hanh/Long_nhau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Thuc_hanh/do_while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Thuc_hanh/for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss8_vòng_lặp/Thuc_hanh/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 1/Bài 9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Luyện tập mảng 2/Bài 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Sử dụng các hàm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Bài tập/Từ điển.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Thực hành/Th1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Thực hành/Th_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Thực hành/Tìm giá trị lớn nhất trong mảng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Thực hành/Tìm giá trị trong mảng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/ss9_mảng/Thực hành/Tạo bàn cờ cơ bản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Câu 9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/Câu 10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/c1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/c2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/c3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/c4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập 2/Số nguyên tố/c5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập/Câu 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập/Câu 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module1/Ôn tập/Câu 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2-retake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/IdNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/InputArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/InputExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/UniqueIdException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/Caculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/controller/FruitsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/model/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/repository/FruitRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/service/FruitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/service/IFruits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/view/FruitsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11/Prime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/controller/FruitsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/entity/Fruits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/repository/FruitsRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/service/FruitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/service/IFruits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/view/FruitsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/controller/SpendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/entity/Spend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/repository/SpendRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/service/ISpend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/service/SpendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/view/SpendView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/controller/SpendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/entity/Spend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/repository/SpendRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/service/ISpend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/service/SpendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/view/SpendView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/controller/SpendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/entity/Spend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/repository/SpendRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/service/ISpend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/service/SpendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/view/SpendView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/Average.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/SumOfDivisors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/AverageII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/FindExistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/TwoDimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/IBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/NaturalBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/SocialBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss8/Refactoring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/data/Student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/repository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/service/IStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/service/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/util/Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Test/view/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/controller/FoodController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/controller/TableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/data/employee.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/data/food.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/data/table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/model/Food.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/model/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/repository/FoodRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/repository/TableRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/IFoodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/IFoodServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/IService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/ITableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/service/TableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/case_study/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/controller/PhoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/data/Phone.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/model/Handheld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/model/International.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/model/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/repository/PhoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/service/IPhoneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/service/IPhoneServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/phone_management/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/BaiTap/CheckPalindromeStringUsingQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/BaiTap/ConvertFromDecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/BaiTap/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/BaiTap/ReverseElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/BaiTap/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss10_stack_queue/ThucHanh/MyGenericStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss11_java_collection_framework/BaiTap/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss11_java_collection_framework/BaiTap/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss11_java_collection_framework/BaiTap/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/AlgorithmComplexityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/repository/IStudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/view/StudentView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_search_algorithm/BaiTap/StudentManager/view/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss13_sorting_algorithm/BaiTap/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss13_sorting_algorithm/BaiTap/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/BaiTap/ArrayIndexOutOfBoundsException/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/BaiTap/ArrayIndexOutOfBoundsException/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/BaiTap/IllegalTriangleException/IllegalTriangleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/BaiTap/IllegalTriangleException/TriangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/BaiTap/NumberFormatException/CalculationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/ThucHanh/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss14_exception/ThucHanh/TestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/CopyFileText/FileCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/CopyFileText/source.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/CopyFileText/target.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/ReadFile/Countries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/ReadFile/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss15_IO_text_file/ReadFile/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/BaiTap/ManageProducts/model/Products.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/BaiTap/ManageProducts/repository/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/BaiTap/ManageProducts/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/ThucHanh/CopyLargeFiles/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/ThucHanh/ReadAndWriteStudentListToBinaryFile/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/ThucHanh/ReadAndWriteStudentListToBinaryFile/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss16_binary_file_serialization/ThucHanh/ReadAndWriteStudentListToBinaryFile/student.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/BaiTap/CreateSimpleThread/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/BaiTap/CreateSimpleThread/NumberGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/BuildANumberCountingApplication/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/BuildANumberCountingApplication/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/PracticeCreatingThreadsUsingRunnable/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/PracticeCreatingThreadsUsingRunnable/RunnableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/RacingCars/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss17_threading/ThucHanh/RacingCars/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss18_string_and_regex/BaiTap/PhoneNumberValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss18_string_and_regex/BaiTap/ValidateTheClassName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss18_string_and_regex/ThucHanh/AccountExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss18_string_and_regex/ThucHanh/AccountExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/BaiTap/HienThiLoiChao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/BaiTap/NumberReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/BaiTap/UngDungChuyenDoiTienTe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/GiaiPhuongTrinhBacNhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/KhaiBaoVaSuDungBien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/KiemTraNamNhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/SuDungToanTu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/TinhChiSoCanNang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss1_introduction_to_java/ThucHanh/TinhSoNgayTrongThang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/BaiTap/PrimeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/BaiTap/PrimeNumbersLessThan100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/BaiTap/ShowTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/ThucHanh/CalculateLoanInterest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/ThucHanh/CheckPrimeNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/ThucHanh/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss2_loops_in_java/ThucHanh/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/AddElementToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/LargestElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/MergeArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/RemoveElementFromArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/SmallestValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/SumArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/BaiTap/SumDiagonal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/ThucHanh/ReverseArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss3_array/ThucHanh/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/BaiTap/Fanclass/Fan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/BaiTap/Fanclass/MainFan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/BaiTap/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/BaiTap/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/Demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/Demo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/ThucHanh/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss4_OOP/ThucHanh/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/BaiTap/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/BaiTap/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/BaiTap/TestCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/BaiTap/TestStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/ThucHanh/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/ThucHanh/Main_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/ThucHanh/Main_car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss5_access_modifier/ThucHanh/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/CircleAndCylinder/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/CircleAndCylinder/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/CircleAndCylinder/MainCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/Point2DAnd3D/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/Point2DAnd3D/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/Point2DAnd3D/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/PointAndMoveablePoint/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/PointAndMoveablePoint/MoveablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/BaiTap/PointAndMoveablePoint/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/ThucHanh/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/ThucHanh/CircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/ThucHanh/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/ThucHanh/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss6_inherit/ThucHanh/shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/CircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Colorable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/ShapeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss7_abstract_class_and_interface/BaiTap/TestColorable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss8_cleanCode_and_amp/BaiTap/TennisGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss9_TDD/BaiTap/arrayList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss9_TDD/BaiTap/arrayList/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss9_TDD/ThucHanh/SaveStudentListByAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/up.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="30LXqBpaciVcdGjFK1sXUIQK7KJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "D:/Codegym/Module2_retake/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="add45959-8d4a-4ec8-be87-2bfce4dc2f36" name="Changes" comment="" />
+      <created>1753408014581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753408014581</updated>
+      <workItem from="1753408015552" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -44,4 +44,10 @@ public class SpendController {
     public List<Spend> sortByAmountDescThenNameAsc() {
         return service.sortByAmountDescThenNameAsc();
     }
+<<<<<<< HEAD
+=======
+    public void findAll(){
+        service.findAll();
+    }
+>>>>>>> save-detached-work
 }

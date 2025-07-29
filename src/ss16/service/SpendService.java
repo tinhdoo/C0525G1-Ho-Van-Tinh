@@ -47,6 +47,14 @@ public class SpendService implements ISpend {
         return repo.isCodeExist(code);
     }
 
+<<<<<<< HEAD
+=======
+    @Override
+    public void findAll() {
+        repo.findAll();
+    }
+
+>>>>>>> save-detached-work
     public List<Spend> sortByNameAsc() {
         return repo.sortByNameAsc();
     }
