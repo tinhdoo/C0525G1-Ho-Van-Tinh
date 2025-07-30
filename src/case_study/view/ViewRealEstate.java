@@ -3,8 +3,6 @@ package case_study.view;
 import case_study.controller.RealEstateController;
 import case_study.entity.RealEstate;
 import common.InputExceptions;
-
-import java.awt.*;
 import java.util.List;
 import java.util.Scanner;
 
@@ -28,7 +26,6 @@ public class ViewRealEstate {
             default -> System.out.println("Vui lòng nhập lại!");
         }
     }
-
     public void menuAdmin() {
         System.out.println("====Admin====");
         System.out.println("1. Hiển thị danh sách");
