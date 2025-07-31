@@ -9,15 +9,26 @@ public class ValidateEmail {
         for (String arr : arrs) {
             String email = arr.trim();
             if (validateMail(email)) {
-                System.out.println(email + "true");
+                System.out.println(email + " true");
             } else {
-                System.out.println(email + "false");
+                System.out.println(email + " false");
             }
         }
+        String number = "0122222222";
+        if(validateNumberPhone(number)){
+            System.out.println(number + " true");
+        }else {
+            System.out.println(number + " false");
+        }
     }
+
     public static boolean validateMail(String mail) {
         String regex = "^[A-Za-z][A-Za-z0-9_]{6,32}@[A-Za-z]+(\\.[A-Za-z]{2,12})$";
         return mail.matches(regex);
+    }
+    public static boolean validateNumberPhone(String phoneNumber) {
+        String regex = "^0[0-9]{9}";
+        return phoneNumber.matches(regex);
     }
 
 }

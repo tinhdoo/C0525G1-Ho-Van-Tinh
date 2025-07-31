@@ -2,6 +2,7 @@ package case_study.controller;
 
 import case_study.entity.RealEstate;
 import case_study.service.RealEstateService;
+
 public class RealEstateController {
     RealEstateService service = new RealEstateService();
     public void add(RealEstate realEstate){
@@ -13,4 +14,5 @@ public class RealEstateController {
     public void delete(int code){
         service.delete(code);
     }
+
 }

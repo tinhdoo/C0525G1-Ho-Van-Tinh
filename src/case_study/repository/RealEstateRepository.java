@@ -8,11 +8,11 @@ import java.util.List;
 
 public class RealEstateRepository {
     public List<RealEstate> listRealEstates = new ArrayList<>();
-    static String Url = "src/case_study/data/RealEstateData.csv";
+    public static final String FILE_PATH = "src/case_study/data/RealEstateData.csv";
 
     public void add(RealEstate realEstate) {
         listRealEstates.add(realEstate);
-        File file = new File(Url);
+        File file = new File(FILE_PATH);
         try (FileWriter fileWriter = new FileWriter(file, true);
              BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
             String line = realEstate.getCode() + "," + realEstate.getName() + "," + realEstate.getType() + "," +
@@ -27,13 +27,16 @@ public class RealEstateRepository {
     }
     public void findAll() {
         List<RealEstate> list = readFromFile();
+        if (list.isEmpty()){
+            System.out.println("Danh sách rỗng!");
+        }
         for (RealEstate r : list) {
             System.out.println(r);
         }
     }
     public List<RealEstate> readFromFile() {
         List<RealEstate> list = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(Url))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] arr = line.split(",");
@@ -69,7 +72,7 @@ public class RealEstateRepository {
         }
 
         if (found) {
-            try (BufferedWriter bw = new BufferedWriter(new FileWriter(Url))) {
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE_PATH))) {
                 for (RealEstate r : list) {
                     String line = r.getCode() + "," + r.getName() + "," + r.getType() + "," +
                             r.getLocation() + "," + r.getArea() + "," +
@@ -84,6 +87,22 @@ public class RealEstateRepository {
         } else {
             System.out.println("Không tìm thấy mã: " + code);
         }
+    }
+    public void update(int code){
+        List<RealEstate> list = readFromFile();
+        boolean found = false;
+
+        for (int i = 0; i < list.size(); i++) {
+            RealEstate r = list.get(i);
+            if (r.getCode() == code) {
+                list.remove(i);
+                found = true;
+                break;
+            }
+        }
+        if (found){
+        }  
+
     }
 }
 

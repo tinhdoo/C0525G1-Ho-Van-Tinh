@@ -11,33 +11,45 @@ public class ViewRealEstate {
     RealEstateController controller = new RealEstateController();
 
     public void mainMenu() {
-        System.out.println("======Menu======");
-        System.out.println("1. Admin");
-        System.out.println("2. Customer");
-        System.out.println("0. Thoát");
-        System.out.print("Chọn chức năng: ");
-        int choose = InputExceptions.inputInterger();
-        switch (choose) {
-            case 1 -> menuAdmin();
-            case 2 -> menuCustomer();
-            case 0 -> {
-                System.out.println("Tạm biệt!");
+        while (true) {
+            System.out.println("\n╔══════════════════════════════════════╗");
+            System.out.println("║              MENU CHÍNH              ║");
+            System.out.println("╠══════════════════════════════════════╣");
+            System.out.println("║ 1. Quản trị viên (Admin)             ║");
+            System.out.println("║ 2. Khách hàng (Customer)             ║");
+            System.out.println("║ 0. Thoát chương trình                ║");
+            System.out.println("╚══════════════════════════════════════╝");
+            System.out.print(">> Nhập lựa chọn của bạn: ");
+
+            int choose = InputExceptions.inputInterger();
+            switch (choose) {
+                case 1 -> menuAdmin();
+                case 2 -> menuCustomer();
+                case 0 -> {
+                    System.out.println("Đã thoát chương trình. Hẹn gặp lại!");
+                    return;
+                }
+                default -> System.out.println("⚠️  Lựa chọn không hợp lệ. Vui lòng thử lại!");
             }
-            default -> System.out.println("Vui lòng nhập lại!");
         }
     }
+
     public void menuAdmin() {
-        System.out.println("====Admin====");
-        System.out.println("1. Hiển thị danh sách");
-        System.out.println("2. Thêm mới");
-        System.out.println("3. Xoá theo mã");
-        System.out.println("4. Sửa theo mã");
-        System.out.println("5. Tìm kiếm theo mã");
-        System.out.println("6. Tìm kiếm theo tên");
-        System.out.println("0. quay lại menu chính");
-        System.out.print("Chọn chức năng: ");
-        int choose = InputExceptions.inputInterger();
         while (true) {
+            System.out.println("\n╔══════════════════════════════════════╗");
+            System.out.println("║              MENU ADMIN              ║");
+            System.out.println("╠══════════════════════════════════════╣");
+            System.out.println("║ 1. Hiển thị danh sách                ║");
+            System.out.println("║ 2. Thêm mới                          ║");
+            System.out.println("║ 3. Xoá theo mã                       ║");
+            System.out.println("║ 4. Sửa theo mã                       ║");
+            System.out.println("║ 5. Tìm kiếm theo mã                  ║");
+            System.out.println("║ 6. Tìm kiếm theo tên                 ║");
+            System.out.println("║ 0. Quay lại menu chính               ║");
+            System.out.println("╚══════════════════════════════════════╝");
+            System.out.print(">> Nhập lựa chọn của bạn: ");
+
+            int choose = InputExceptions.inputInterger();
             switch (choose) {
                 case 1 -> displayList();
                 case 2 -> add();
@@ -46,49 +58,62 @@ public class ViewRealEstate {
                 case 5 -> searchByCode();
                 case 6 -> searchByName();
                 case 0 -> {
-                    mainMenu();
+                    return;
                 }
-                default -> System.out.println("Vui lòng nhập lại!");
+                default -> System.out.println("⚠️  Lựa chọn không hợp lệ. Vui lòng thử lại!");
             }
         }
     }
-
     public void menuCustomer() {
-        System.out.println("====Customer====");
-        System.out.println("1. Hiển thị danh sách");
-        System.out.println("2. Thêm vào giỏ hàng bằng mã");
-        System.out.println("3. Xem giỏ hàng");
-        System.out.println("4. Liên hệ người bán");
-        System.out.println("5. Xem thông báo");
-        System.out.println("0. quay lại menu chính");
         while (true) {
-            System.out.print("Chọn chức năng: ");
+            System.out.println("\n╔══════════════════════════════════════╗");
+            System.out.println("║           MENU KHÁCH HÀNG            ║");
+            System.out.println("╠══════════════════════════════════════╣");
+            System.out.println("║ 1. Hiển thị danh sách                ║");
+            System.out.println("║ 2. Thêm vào giỏ hàng (theo mã)       ║");
+            System.out.println("║ 3. Xem giỏ hàng                      ║");
+            System.out.println("║ 4. Liên hệ người bán                 ║");
+            System.out.println("║ 5. Xem thông báo                     ║");
+            System.out.println("║ 0. Quay lại menu chính               ║");
+            System.out.println("╚══════════════════════════════════════╝");
+            System.out.print(">> Nhập lựa chọn của bạn: ");
+
             int choose = InputExceptions.inputInterger();
             switch (choose) {
                 case 1 -> displayList();
                 case 2 -> add();
-                case 3 -> MenuCart();
+                case 3 -> menuCart();
                 case 4 -> contact();
                 case 5 -> displayNotification();
-                case 0 -> mainMenu();
-                default -> System.out.println("Vui lòng nhập lại!");
+                case 0 -> {
+                    return;
+                }
+                default -> System.out.println("⚠️  Lựa chọn không hợp lệ. Vui lòng thử lại!");
             }
         }
     }
 
-    public void MenuCart() {
-        System.out.println("1. Thêm vào giỏ theo mã");
-        System.out.println("2. Xoá khỏi giỏ theo mã");
-        System.out.println("0. Quay lại");
-        int choose = InputExceptions.inputInterger();
+
+    public void menuCart() {
         while (true) {
+            System.out.println("\n========= GIỎ HÀNG =========");
+            System.out.println("1. ➕  Thêm vào giỏ (theo mã)");
+            System.out.println("2. ❌  Xoá khỏi giỏ (theo mã)");
+            System.out.println("3. 📝  Cập nhật sản phẩm trong giỏ");
+            System.out.println("4. 📦  Hiển thị giỏ hàng");
+            System.out.println("0. ⬅️  Quay lại");
+            System.out.print("👉 Nhập lựa chọn của bạn: ");
+
+            int choose = InputExceptions.inputInterger();
             switch (choose) {
-                case 1 -> showCart();
+                case 1 -> addToCart();
                 case 2 -> deleteFromCart();
                 case 3 -> updateFromCart();
-                case 4 -> addToCart();
-                case 0 -> menuCustomer();
-                default -> System.out.println("Vui lòng nhập lại!");
+                case 4 -> showCart();
+                case 0 -> {
+                    return;
+                }
+                default -> System.out.println("⚠️  Lựa chọn không hợp lệ. Vui lòng thử lại!");
             }
         }
     }
@@ -154,8 +179,9 @@ public class ViewRealEstate {
         System.out.println("Nhập giá: ");
         double price = scanner.nextDouble();
         System.out.println("Tình trạng: ");
-        boolean isSold = scanner.hasNext();
+        boolean isSold = scanner.nextBoolean();
         return new RealEstate(code, name, type, location, area, price, isSold);
 
     }
+
 }

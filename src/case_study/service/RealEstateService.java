@@ -3,6 +3,8 @@ package case_study.service;
 import case_study.entity.RealEstate;
 import case_study.repository.RealEstateRepository;
 
+import java.util.List;
+
 public class RealEstateService implements comparable<RealEstate> {
     RealEstateRepository repository = new RealEstateRepository();
     @Override
@@ -28,4 +30,5 @@ public class RealEstateService implements comparable<RealEstate> {
     public void contact() {
 
     }
+
 }

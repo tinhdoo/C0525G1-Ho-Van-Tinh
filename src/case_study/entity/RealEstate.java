@@ -9,9 +9,6 @@ public class RealEstate {
     private double price;
     private boolean isSold;
 
-    public RealEstate(int code, String name, String type, String location, double area, double price) {
-    }
-
     public int getCode() {
         return code;
     }
